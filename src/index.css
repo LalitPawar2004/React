@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans text-sm text-gray-900;
+  }
+
+  input {
+    @apply bg-transparent outline-none w-full;
+  }
+
+  th {
+    @apply bg-[#FAFAFA] text-xs font-medium text-gray-500 uppercase tracking-wide;
+  }
+
+  td {
+    @apply text-sm text-gray-700;
+  }
+
+  table {
+    @apply table-auto;
+  }
+}
